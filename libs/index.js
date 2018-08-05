@@ -10,7 +10,7 @@ gitalkConfig = {
   distractionFreeMode: false
 },
 window.$docsify = {
-  name: 'cocos-creator-tutorial',
+  name: 'Cocos Creator 教程',
   repo: 'https://github.com/potato47/cocos-creator-tutorial',
   auto2top: true,
   loadSidebar: true,
@@ -30,7 +30,7 @@ window.$docsify = {
     function(hook, vm) {
       hook.beforeEach(function (html) {
         var url = 'https://github.com/potato47/cocos-creator-tutorial/blob/master/' + vm.route.file;
-        var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
+        var editHtml = '[📝 帮助修改](' + url + ')\n';
         
         return editHtml + html;
       })

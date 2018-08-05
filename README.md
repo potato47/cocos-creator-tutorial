@@ -22,9 +22,6 @@
 * 编程语言使用 TypeScript，编辑器使用 Visual Studio Code，保证丝滑顺手的代码编写体验
 * 不是文档，全程实战
 
-## 估计要好久才能写完
-[so-many-games](https://potato47.github.io/so-many-games/mobile ':include :type=iframe width=360px height=640px')
-
 ## 关于我
 不提也罢
 

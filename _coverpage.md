@@ -1,4 +1,4 @@
-![logo](_images/cocos_creator.png)
+![logo](static/cocos_creator.png)
 # Cocos Creator 教程 <small>2018.8.2 更新</small>
 
 

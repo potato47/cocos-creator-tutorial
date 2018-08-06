@@ -1,7 +1,16 @@
-* 入门
-    * [安装](#)
-    * [概览](#)
-    * [快速上手](#)
+* 准备
+    * [Cocos Creator](prepare-creator)
+    * [Visual Studio Code](prepare-vscode)
+    * [Chrome](prepare-chrome)
+    * [TypeScript](prepare-ts)
+* 快速上手
+    * [简介](#)
+    * [目录结构](#)
+    * [场景搭建](#)
+    * [相机](#)
+    * [控制输入](#)
+    * [输赢判断](#)
+    * [构建发布](#)
 * 练习
     * [练习1](#)
     * [练习2](#)

@@ -14,7 +14,7 @@
 
 ## 网站
 
-🌏 [Cocos-Creator-Tutorial](https://potato47.github.io/cocos-creator-tutorial/#/)
+🌏 [Cocos-Creator-Tutorial](https://ccc.xinshouit.com/#/)
 
 ## 特点
 

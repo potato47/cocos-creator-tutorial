@@ -1,9 +1,7 @@
-* 准备
-    * [Cocos Creator](prepare-creator)
-    * [Visual Studio Code](prepare-vscode)
-    * [Chrome](prepare-chrome)
-    * [TypeScript](prepare-ts)
-* 快速上手
+* 入门
+    * [准备](prepare)
+    * [概览](preview)
+* 上手
     * [简介](#)
     * [目录结构](#)
     * [场景搭建](#)
@@ -11,7 +9,7 @@
     * [控制输入](#)
     * [输赢判断](#)
     * [构建发布](#)
-* 核心知识
+* 练习
     * [组件与节点](#)
     * [事件系统](#)
 * 专项练习

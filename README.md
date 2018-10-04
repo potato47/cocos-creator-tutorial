@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://lhammer.cn/You-need-to-know-css/#/">
+    <a href="https://github.com/potato47/cocos-creator-tutorial">
         <img src="./static/cocos_creator.png" width="152">
     </a>
     <h3 align="center">Cocos-Creator-Tutorial</h3>

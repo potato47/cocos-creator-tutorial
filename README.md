@@ -4,8 +4,8 @@
     </a>
     <h3 align="center">Cocos-Creator-Tutorial</h3>
     <p align="center">
-        <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/github/license/l-hammer/You-need-to-know-css.svg??colorB=brightgreen"></a>
-        <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/potato47/cocos-creator-tutorial.svg?style=social"></a>
+        <a href="https://github.com/potato47/cocos-creator-tutorial/blob/master/LICENSE"><img src="https://img.shields.io/github/license/potato47/cocos-creator-tutorial.svg??colorB=brightgreen"></a>
+        <a href="https://github.com/potato47/cocos-creator-tutorial"><img src="https://img.shields.io/github/stars/potato47/cocos-creator-tutorial.svg?style=social"></a>
     </p>
     <p align="center">
         可能是最好的 Cocos Creator 游戏开发教程（如果写完的话）<br>
@@ -14,7 +14,7 @@
 
 ## 网站
 
-🌏 [Cocos-Creator-Tutorial](https://potato47.github.io/cocos-creator-tutorial/#/)
+🌏 [Cocos-Creator-Tutorial](https://ccc.xinshouit.com/#/)
 
 ## 特点
 

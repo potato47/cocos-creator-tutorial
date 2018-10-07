@@ -5,35 +5,51 @@
 
   <title>Cocos Creator | one-two-step</title>
 
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
   <meta name="full-screen" content="yes"/>
-  <meta name="screen-orientation" content="portrait"/>
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
   
-  <meta name="renderer" content="webkit"/>
-  <meta name="force-rendering" content="webkit"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  
-  <link rel="stylesheet" type="text/css" href="style-desktop.95f96.css"/>
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="landscape"/>
+  <meta name="x5-orientation" content="landscape">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.f3671.css"/>
+
 </head>
 <body>
-<h1 class="header">one-two-step</h1>
-
-<div id="GameDiv" style="width:640px; height: 360px;">
-  <canvas id="GameCanvas" width="640" height="360"></canvas>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
   <div id="splash">
     <div class="progress-bar stripes">
       <span style="width: 0%"></span>
     </div>
   </div>
-</div>
+<script src="src/settings.fb789.js" charset="utf-8"></script>
 
-<p class="footer">Created with <a href="http://cocos.com/cocoscreator" title="cocos creator">Cocos Creator</a></p>
-
-<script src="src/settings.d9944.js" charset="utf-8"></script>
-<script src="main.0b1da.js" charset="utf-8"></script>
+<script src="main.29c45.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
@@ -58,6 +74,5 @@
     document.body.appendChild(cocos2d);
 })();
 </script>
-
 </body>
 </html>

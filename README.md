@@ -28,3 +28,8 @@
 ## License
 
 [MIT](https://github.com/potato47/cocos-creator/blob/master/LICENSE) © 2018 Next
+
+----
+<center>
+<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+</center>

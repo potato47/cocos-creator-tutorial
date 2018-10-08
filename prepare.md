@@ -6,8 +6,8 @@ http://www.cocos.com/download
 
 !> Windows 安装过程中会询问是否安装 Visual Studio，其作用是编译 Windows 程序，我们暂时以 Web 平台开发为主，所以可以先跳过不安装，当然你非要安装我也不能拿你怎么样。
 
-### 注册账号
-如果你第一次使用 Cocos Creator，会提示你登录账号。你可以从下面的地址注册 Cocos 开发者账号。
+### 注册账号
+如果你第一次使用 Cocos Creator，会提示你登录账号。你可以从下面的地址注册 Cocos 开发者账号。
 
 https://passport.cocos.com/auth/signup
 

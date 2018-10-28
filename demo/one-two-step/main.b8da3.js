@@ -135,7 +135,7 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.f81e6.js';
+        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.dece2.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
                 return 'src/' + x;
@@ -146,12 +146,7 @@ window.boot = function () {
             jsList = [bundledScript];
         }
     }
-
-    // ANYS scripts
-    if (cc.sys.isNative && cc.sys.isMobile) {
-        jsList = jsList.concat(['src/ANYS/jsb_ANYS.js', 'src/ANYS/jsb_ANYS_constants.js']);
-    }
-
+    
     var option = {
         id: 'GameCanvas',
         scenes: settings.scenes,
@@ -166,7 +161,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.29c45.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.b8da3.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();
@@ -186,11 +181,11 @@ if (false) {
     qqPlayDownloader.REMOTE_SERVER_ROOT = "";
     var prevPipe = cc.loader.md5Pipe || cc.loader.assetLoader;
     cc.loader.insertPipeAfter(prevPipe, qqPlayDownloader);
-
+    
     window.boot();
 }
 else if (window.jsb) {
-    require('src/settings.fb789.js');
+    require('src/settings.441b7.js');
     require('src/cocos2d-jsb.js');
     require('jsb-adapter/engine/index.js');
     window.boot();

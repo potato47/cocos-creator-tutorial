@@ -14,7 +14,7 @@
 
 ## 网站
 
-🌏 [Cocos-Creator-Tutorial](https://ccc.xinshouit.com/#/)
+🌏 [Cocos-Creator-Tutorial](https://nobug.space/cocos-creator-tutorial/#/)
 
 ## 特点
 
